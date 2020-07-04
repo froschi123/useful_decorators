@@ -1,14 +1,14 @@
-from setuptools import setup
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name='useful_decorators',
-    version='1.0',
-    packages=['useful_decorators'],
-    url='',
-    license='Free',
+    version='1.0.0',
+    packages=setuptools.find_packages(),
+    url='https://github.com/froschi123/useful_decorators',
+    license='MIT License',
     author='Bernd Wehmöller',
     author_email='bernd@wehmoeller.net',
     description='Some useful decorators for debugging and logging',
