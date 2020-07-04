@@ -2,6 +2,7 @@ import datetime
 import functools
 import logging
 
+print("================ Hallo Welt ========================")
 
 # A decorator function that prints the time taken for a function call.
 # if a logger is given as argument, the information will be printed in debug mode only
