@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='useful_decorators',
-    version='1.0.0',
+    version='1.0.2',
     packages=setuptools.find_packages(),
     url='https://github.com/froschi123/useful_decorators',
     license='MIT License',
